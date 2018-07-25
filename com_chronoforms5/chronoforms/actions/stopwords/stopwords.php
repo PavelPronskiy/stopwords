@@ -10,8 +10,6 @@ defined("GCORE_SITE") or die;
 
 define('ST_SUBLABEL', 'Список стоп-слов и regex паттерны (PHP)');
 define('ST_LABEL', 'Список стоп-слов');
-define('ST_STOPWORD_DETECT', 'Обнаружены запрещённые стоп-слова: ');
-define('ST_STOPWORD_DETECT2', 'удалите их из сообщения и отправьте снова.');
 define('ST_FAIL_MESSAGE_HEAD_LABEL', 'Сообщение об ошибке, шапка.');
 define('ST_FAIL_MESSAGE_HEAD_SUBLABEL', 'Отображается вверху если обнаружены стоп-слова');
 define('ST_FAIL_MESSAGE_FOOT_LABEL', 'Сообщение об ошибке, футер');
