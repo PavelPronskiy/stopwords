@@ -42,7 +42,7 @@ Class Stopwords extends \GCore\Admin\Extensions\Chronoforms\Action {
 	{
 		$fsw = array();
 		foreach ($sw as $field => $value)
-			if (preg_grep("/{$value}/i", $form->data))
+			if (preg_grep("/\b({$value})/iu", $form->data))
 				$fsw[$field] = $value;
 
 		return $fsw;
